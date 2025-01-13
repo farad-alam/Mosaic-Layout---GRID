@@ -9,7 +9,8 @@ body {
   text-align: center;
 }
 .container {
-  width: 920px;
+    padding: 50px;
+  width: 70%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -21,42 +22,42 @@ body {
   padding: 30px;
   transition: all 0.5s ease;
 }
-.items:hover{
-    transform: rotateZ(-45deg);
+.items:hover {
+  transform: rotateZ(-45deg);
 }
 .one {
   grid-column: span 2;
   grid-row: span 6;
 }
-.one:hover{
-    background: #fd0a54;
-    box-shadow: 10px 8px 18px 10px rgba(253,10,84,0.84);
-    transform: rotateZ(-45deg) scale(1.07);
-    border-radius: 9px;
+.one:hover {
+  background: #fd0a54;
+  box-shadow: 10px 8px 18px 10px rgba(253, 10, 84, 0.84);
+  transform: rotateZ(-45deg) scale(1.07);
+  border-radius: 9px;
 }
-.two:hover{
-    background: #ffabab;
-    box-shadow: 10px 8px 18px 10px #ffabab;
-        transform: rotateZ(-45deg) scale(1.07);
-    border-radius: 9px;
+.two:hover {
+  background: #ffabab;
+  box-shadow: 10px 8px 18px 10px #ffabab;
+  transform: rotateZ(-45deg) scale(2.07);
+  border-radius: 9px;
 }
-.three:hover{
-    background: #ffff00;
-    box-shadow: 10px 8px 18px 10px #ffff00;
-        transform: rotateZ(-45deg) scale(1.07);
-    border-radius: 9px;
+.three:hover {
+  background: #ffff00;
+  box-shadow: 10px 8px 18px 10px #ffff00;
+  transform: rotateZ(-45deg) scale(1.07);
+  border-radius: 9px;
 }
-.four:hover{
-    background: #07f9a2;
-    box-shadow: 10px 8px 18px 10px #07f9a2;
-        transform: rotateZ(-45deg) scale(1.07);
-    border-radius: 9px;
+.four:hover {
+  background: #07f9a2;
+  box-shadow: 10px 8px 18px 10px #07f9a2;
+  transform: rotateZ(-45deg) scale(1.07);
+  border-radius: 9px;
 }
-.five:hover{
-    background: #17f9ff;
-    box-shadow: 10px 8px 18px 10px #17f9ff;
-        transform: rotateZ(-45deg) scale(1.07);
-    border-radius: 9px;
+.five:hover {
+  background: #17f9ff;
+  box-shadow: 10px 8px 18px 10px #17f9ff;
+  transform: rotateZ(-45deg) scale(1.07);
+  border-radius: 9px;
 }
 .two {
   grid-column: span 4;
@@ -75,6 +76,10 @@ body {
   grid-column: span 4;
   grid-row: span 3;
 }
-.container{
-    transform: rotateZ(45deg) scale(0.7);
+.container {
+  transform: rotateZ(45deg) scale(0.7);
+}
+.items:hover {
+  transform: rotateZ(-45deg) scale(1.3);
+  border-radius: 9px;
 }
